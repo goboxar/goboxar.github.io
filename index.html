@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arma tu propia caja de golosinas y recibe tu pedido a domicilio con GoBox.">
+    <meta name="keywords" content="GoBox, caja de golosinas, pedido a domicilio, snacks">
+    <meta name="author" content="Tu Nombre">
+    <title>GoBox - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GoBox</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="mis-pedidos.html">Mis Pedidos</a>
+            <a href="destacados.html">Destacados</a>
+            <a href="ofertas.html">Ofertas</a>
+        </nav>
+    </header>
+
+    <section id="box-selection" class="box-selection">
+        <h2>Selecciona tu Caja</h2>
+        <select id="box-size">
+            <option value="little">Little Box (5 items)</option>
+            <option value="standard">Standard Box (10 items)</option>
+            <option value="big">Big Box (15 items)</option>
+        </select>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Tu Carrito</h2>
+        <div id="cart-items"></div>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <p>Items en el carrito: <span id="cart-count">0</span>/<span id="cart-limit">5</span></p>
+        <button id="checkout">Finalizar Compra</button>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Categorías</h2>
+        <select id="category">
+            <option value="all">Todos</option>
+            <option value="chocolates">Chocolates</option>
+            <option value="gomitas">Gomitas</option>
+            <option value="caramelos">Caramelos</option>
+            <option value="chicles">Chicles</option>
+            <option value="snacks">Snacks</option>
+            <option value="galletitas">Galletitas</option>
+        </select>
+        <div id="products-list" class="products"></div>
+    </section>    
+
+    <footer>
+        <p>&copy; 2024 GoBox. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

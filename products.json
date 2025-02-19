@@ -1,0 +1,110 @@
+[
+    { 
+        "id": 1, 
+        "name": "Chocolate Milka Oreo", 
+        "category": "chocolates", 
+        "price": 900, 
+        "image": "images/milka-oreo.jpg", 
+        "description": "Chocolate con leche relleno con crema de vainilla y trozos de galleta Oreo.", 
+        "stock": 30 
+    },
+    { 
+        "id": 2, 
+        "name": "Bon o Bon", 
+        "category": "chocolates", 
+        "price": 550, 
+        "image": "images/bonobon.jpg", 
+        "description": "Clásico bombón de chocolate con leche y relleno de crema de maní.", 
+        "stock": 50 
+    },
+    { 
+        "id": 3, 
+        "name": "Alfajor Havanna", 
+        "category": "chocolates", 
+        "price": 750, 
+        "image": "images/alfajor-havanna.jpg", 
+        "description": "Doble galleta rellena de dulce de leche, bañada en chocolate semiamargo.", 
+        "stock": 20 
+    },
+    { 
+        "id": 4, 
+        "name": "Gomitas Mogul Ositos", 
+        "category": "gomitas", 
+        "price": 350, 
+        "image": "images/mogul-ositos.jpg", 
+        "description": "Gomitas de ositos con sabores frutales clásicos.", 
+        "stock": 60 
+    },
+    { 
+        "id": 5, 
+        "name": "Gomitas Mogul Ácidas", 
+        "category": "gomitas", 
+        "price": 400, 
+        "image": "images/mogul-acidas.jpg", 
+        "description": "Gomitas con recubrimiento de azúcar y un toque ácido.", 
+        "stock": 55 
+    },
+    { 
+        "id": 6, 
+        "name": "Sugus Masticables", 
+        "category": "gomitas", 
+        "price": 300, 
+        "image": "images/sugus.jpg", 
+        "description": "Dulces masticables de frutas con sabor intenso.", 
+        "stock": 40 
+    },
+    { 
+        "id": 7, 
+        "name": "Caramelos Butter Toffees", 
+        "category": "caramelos", 
+        "price": 500, 
+        "image": "images/butter-toffees.jpg", 
+        "description": "Caramelos de dulce de leche con centro cremoso.", 
+        "stock": 30 
+    },
+    { 
+        "id": 8, 
+        "name": "Caramelos Menta Cristal", 
+        "category": "caramelos", 
+        "price": 350, 
+        "image": "images/menta-cristal.jpg", 
+        "description": "Caramelos duros refrescantes con extracto de menta.", 
+        "stock": 35 
+    },
+    { 
+        "id": 9, 
+        "name": "Palitos de la Selva", 
+        "category": "caramelos", 
+        "price": 300, 
+        "image": "images/palitos-selva.jpg", 
+        "description": "Caramelos masticables con sabor frutal y dibujos de animales.", 
+        "stock": 45 
+    },
+    {
+        "id": 10,
+        "name": "Chicles Bazooka",
+        "category": "chicles",
+        "price": 100,
+        "image": "images/bazooka.jpg",
+        "description": "Chicle de fruta con tatuajes de personajes divertidos.",
+        "stock": 80
+    },
+    {
+        "id": 11,
+        "name": "Galletitas Chispas",
+        "category": "galletitas",
+        "price": 450,
+        "image": "images/galletitas-chispas.jpg",
+        "description": "Galletitas con trozos de chocolate para un sabor irresistible.",
+        "stock": 60
+    },
+    {
+        "id": 12,
+        "name": "Papitas Lay's Clásicas",
+        "category": "snacks",
+        "price": 350,
+        "image": "images/papitas-lays.jpg",
+        "description": "Deliciosas papas fritas clásicas con sal.",
+        "stock": 40
+    }
+]

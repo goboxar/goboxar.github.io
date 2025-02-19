@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#checkout-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ff6600; /* Naranja */
+    text-align: center;
+}
+
+#checkout-items {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff6600; /* Naranja */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+#checkout-summary {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+#checkout-summary p {
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600; /* Naranja */
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e65c00; /* Naranja oscuro */
+}
+
+button:focus {
+    outline: none;
+}
+
+#payment-options {
+    margin-top: 20px;
+}
+
+#payment-options h3 {
+    color: #ff6600; /* Naranja */
+}
+
+#payment-options button {
+    background-color: #ff6600; /* Naranja */
+}
+
+#payment-options button:hover {
+    background-color: #e65c00; /* Naranja oscuro */
+}
+
+#transfer-options {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#transfer-options h4 {
+    color: #ff6600; /* Naranja */
+}
+
+#transfer-options p {
+    color: #ccc;
+}
+
+button#copy-alias, button#copy-cvu {
+    background-color: #555;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button#copy-alias:hover, button#copy-cvu:hover {
+    background-color: #444;
+}
+
+#checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#payment-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+#delivery-address {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#pay-now {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pay-now:hover {
+    background-color: #45a049;
+}

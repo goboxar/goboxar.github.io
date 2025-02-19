@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <div id="checkout-container">
+        <h1>Resumen de Compra</h1>
+        <div id="checkout-items">
+            <h2>Productos en tu carrito</h2>
+            <ul id="cart-items"></ul>
+        </div>
+        <div id="checkout-summary">
+            <p>Total: $<span id="cart-total"></span></p>
+            <p>Tamaño de caja: <span id="box-size"></span></p>
+        </div>
+        <button id="confirm-purchase">Confirmar Compra</button>
+        <div id="payment-options" style="display: none;">
+            <h3>Opciones de pago</h3>
+            <p><strong>Total a Transferir:</strong> $<span id="total-to-pay"></span></p>
+            <input type="text" id="delivery-address" placeholder="Ingresa tu dirección de entrega">
+            <div id="transfer-options">
+                <h4>Transferencia Bancaria</h4>
+                <p><strong>Alias:</strong> <span id="alias">123456789</span> <button id="copy-alias">Copiar Alias</button></p>
+                <p><strong>CVU:</strong> <span id="cvu">00000000000000000000000000</span> <button id="copy-cvu">Copiar CVU</button></p>
+                <button id="pay-now">Pagar Ahora</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="checkout.js"></script>
+</body>
+</html>
