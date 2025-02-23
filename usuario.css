@@ -1,0 +1,175 @@
+/* Reseteo básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para la barra de notificación */
+#notification-bar {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#notification-bar .status {
+    display: flex;
+    align-items: center;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Estilo para el dot activo (verde) */
+.status-dot.active {
+    background-color: rgb(0, 255, 0);
+}
+
+/* Estilo para el dot inactivo (rojo) */
+.status-dot.inactive {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+
+header {
+    width: 100%;
+    background-color: rgba(255, 102, 0, 0.879); /* Naranja con transparencia */
+    padding: 40px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff954a; /* Naranja al pasar el mouse */
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #ff954a;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item label {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.info-item input {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border: 2px solid #ff954a;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #ff954a;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+#orders-list {
+    text-align: left;
+}
+
+.order-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.order-item p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #ff954a;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    color: #fff;
+}

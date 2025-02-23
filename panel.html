@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Franquiciado</title>
+    <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+    <div class="panel-container">
+        <header>
+            <h1>Panel de Franquiciado</h1>
+            <nav>
+                <ul>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#pedidos">Pedidos</a></li>
+                    <li><a href="#ventas">Ventas</a></li>
+                    <li><a href="#logout" id="logout">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="dashboard">
+                <h2>Bienvenido al Panel</h2>
+                <p>Aquí puedes ver las estadísticas y gestionar tu franquicia.</p>
+                <div class="statistics">
+                    <div class="stat">
+                        <h3>Pedidos Pendientes</h3>
+                        <p id="pending-orders">0</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Ventas Totales</h3>
+                        <p id="total-sales">$0</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="productos">
+                <h2>Gestionar Productos</h2>
+                <button id="add-product">Agregar Producto</button>
+                <ul id="product-list"></ul>
+            </section>
+
+            <section id="pedidos">
+                <h2>Pedidos</h2>
+                <table id="orders-table">
+                    <thead>
+                        <tr>
+                            <th>ID Pedido</th>
+                            <th>Cliente</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Los pedidos se llenarán aquí con JS -->
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="ventas">
+                <h2>Reporte de Ventas</h2>
+                <button id="view-sales">Ver Ventas</button>
+                <div id="sales-report"></div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="panel.js"></script>
+</body>
+</html>

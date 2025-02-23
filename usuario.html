@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Usuario - GoBox</title>
+    <link rel="stylesheet" href="usuario.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a tu perfil</h1>
+        <nav>
+            <a href="home.html">Realizar Pedido</a>
+            
+            <a href="ofertas.html">Ofertas</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="user-info">
+            <h2>Información del Usuario</h2>
+            <div class="info-item">
+                <label for="user-name">Nombre:</label>
+                <input type="text" id="user-name" value="Fernando Zelaschi" disabled>
+            </div>
+            <div class="info-item">
+                <label for="user-email">Correo Electrónico:</label>
+                <input type="email" id="user-email" value="fernando_zelaschi@hotmail.com" disabled>
+            </div>
+            <div class="info-item">
+                <label for="user-phone">Teléfono:</label>
+                <input type="tel" id="user-phone" value="555-1234-5678" disabled>
+            </div>
+        </section>
+
+        <section class="user-orders">
+            <h2>Mis Pedidos</h2>
+            <div id="orders-list">
+                <div class="order-item">
+                    <p>Pedido #1 - 10/01/2025</p>
+                    <button>Ver Detalles</button>
+                </div>
+                <div class="order-item">
+                    <p>Pedido #2 - 15/01/2025</p>
+                    <button>Ver Detalles</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="user-settings">
+            <h2>Ajustes</h2>
+            <button id="change-password">Cambiar Contraseña</button>
+            <button id="logout">Cerrar sesión</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GoBox - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="usuario.js"></script>
+</body>
+</html>

@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         message += `Dirección de entrega: ${address}\n\n`;
         message += "Por favor confirmar el pedido.";
 
-        const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/+12495034769?text=${encodeURIComponent(message)}`;
         window.location.href = whatsappUrl;
 
         localStorage.removeItem('cart');
